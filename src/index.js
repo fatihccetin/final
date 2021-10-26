@@ -8,6 +8,7 @@ import Reset from './styles/reset';
 import store from './store'
 import { Provider } from 'react-redux';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <Reset />

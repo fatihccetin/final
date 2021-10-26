@@ -19,7 +19,7 @@ const HeaderMenu = () => {
         <div className="menu-items">
           {
             Object.keys(products.categories).map(key=> (
-              <Link to={`/home/category/${key}`}><span id={key} onClick={handleClick}>{key.charAt(0).toUpperCase() + key.slice(1)}</span></Link>
+              <Link to={`/home/category/${key}`} style={{ textDecoration: 'none'}} ><span id={key}  onClick={handleClick}>{key.charAt(0).toUpperCase() + key.slice(1)}</span> </Link>
             ))
           }
           <hr className="header-hr" />
