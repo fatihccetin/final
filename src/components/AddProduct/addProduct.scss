@@ -1,0 +1,218 @@
+@import "../.././styles/abstracts";
+
+.contain {
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    width: 75%;
+    height: 580px;
+    margin-left: 13%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .add-container-left {
+        padding: 20px;
+        width: 55%;
+        border-right: rgb(192, 187, 187) solid 1px;
+        .add-title {
+            text-align: left;
+            font: normal normal bold 25px/23px Nunito;
+            letter-spacing: 0px;
+            color: #525252;
+            opacity: 1;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+    }
+    .add-container-right {
+        background: #ffffff 0% 0% no-repeat padding-box;
+        padding: 30px;
+        width: 45%;
+        border-radius: 8px;
+    }
+}
+div {
+    text-align: left;
+    font: normal normal normal 15px/20px Nunito;
+    letter-spacing: 0px;
+    color: #525252;
+    opacity: 1;
+}
+
+.pname {
+    height: 45px;
+    width: 100%;
+    font-size: 16px;
+    border-style: none;
+    padding-left: 1rem;
+    background: #f4f4f4 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    &:focus {
+        outline: none;
+        background: rgba(0, 138, 252, 0.158);
+        border: 2px solid rgb(0, 140, 255);
+    }
+}
+.pexplanation {
+    display: inline;
+    height: 45px;
+    width: 100%;
+    font-size: 16px;
+    border-style: none;
+    padding-left: 1rem;
+    background: #f4f4f4 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    &:focus {
+        outline: none;
+        background: rgba(0, 138, 252, 0.158);
+        border: 2px solid rgb(0, 140, 255);
+    }
+}
+.add-content {
+    @include flex-display(flex, center, space-between);
+    .addProductt-category {
+        margin-bottom: 20px;
+    }
+    .add-select1 {
+        width: 200px;
+        height: 40px;
+        margin-left: 10px;
+        background: #f4f4f4 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        opacity: 1;
+        border-style: none;
+    }
+    .addProductt-color {
+        margin-bottom: 20px;
+    }
+    .add-select2 {
+        width: 200px;
+        height: 40px;
+        margin-left: 10px;
+        background: #f4f4f4 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        opacity: 1;
+        border-style: none;
+    }
+    .add-colour-title {
+        display: inline;
+    }
+    .add-select3 {
+        width: 200px;
+        height: 40px;
+        margin-left: 75px;
+        background: #f4f4f4 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        opacity: 1;
+        border-style: none;
+    }
+
+    .add-select4 {
+        width: 200px;
+        height: 40px;
+        background: #f4f4f4 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        opacity: 1;
+        border-style: none;
+    }
+}
+
+.pmoney {
+    height: 45px;
+    width: 40%;
+    font-size: 16px;
+    border-style: none;
+    padding-left: 1rem;
+    background: #f4f4f4 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    display: block;
+    &:focus {
+        outline: none;
+        background: rgba(0, 138, 252, 0.158);
+        border: 2px solid rgb(0, 140, 255);
+    }
+}
+
+.toogle {
+    display: inline;
+    margin-left: 170px;
+}
+.offer-add {
+    text-align: left;
+    font: normal normal normal 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #b1b1b1;
+    opacity: 1;
+}
+.add-img {
+    text-align: left;
+    font: normal normal bold 25px/23px Nunito;
+    letter-spacing: 0px;
+    color: #525252;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+.file-input {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px dashed #b1b1b1;
+    border-radius: 10px;
+    opacity: 1;
+    &:hover {
+        background: #e7ebee;
+    }
+}
+
+.add-upload-titlee {
+    text-align: center;
+    margin-top: 20px;
+}
+.add-upload-body {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #525252;
+    opacity: 1;
+}
+.add-upload-body2 {
+    text-align: center;
+    font: normal normal normal 12px/14px Nunito;
+    letter-spacing: 0px;
+    color: #b1b1b1;
+    opacity: 1;
+}
+.form-file{
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+
+opacity: 1;
+}
+.addProduct-btn {
+    width: 315px;
+    height: 40px;
+    margin-top: 300px;
+    margin-left: 100px;
+    background: #4b9ce2 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 18px/24px Nunito;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    border-style: none;
+    &:hover {
+        background: #456e92;
+    }
+}

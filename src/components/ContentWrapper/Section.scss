@@ -1,0 +1,20 @@
+.container{
+    margin-left: 13%;
+      display: flex;
+      & > div:first-child {
+        flex: 2;
+        // min-width: 300px;
+      }
+      & > div:last-child {
+        flex: 5;
+        // flex-basis: 100%;
+      }
+    }
+  .section-container {
+      max-height: 1200px;
+      overflow: auto;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 16px;
+      gap: 10px
+    }

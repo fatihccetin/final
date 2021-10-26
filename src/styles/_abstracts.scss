@@ -1,0 +1,8 @@
+@mixin flex-display ($display,$align-items,$justify-content) {
+
+    display: $display; 
+    align-items: $align-items;
+    justify-content: $justify-content;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');

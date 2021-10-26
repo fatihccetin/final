@@ -1,0 +1,53 @@
+@import "../../styles/abstracts";
+.card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    width:270px ;
+    margin-top: 10px;
+    margin-right: 8px;
+  }
+  .card-image{
+     margin-left: 4px;
+      padding-top: 8px;
+  }
+  
+  .img-content {
+    padding: 0 15px;
+  }
+  .card-body{
+    @include flex-display(flex, center, space-between);
+
+  }
+ .species{
+  
+    text-align: left;
+    font: normal normal bold 15px/22px Nunito;
+    letter-spacing: 0px;
+    color: #4B9CE2;
+    opacity: 1;
+ }
+ .card-body-color{
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+    
+ }
+ .card-status{
+     margin-top: 10px;
+     margin-bottom: 10px;
+    text-align: left;
+    font: normal  bold 18px/22px Nunito;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+  
+ }
+ .card-colour{
+  text-align: left;
+  letter-spacing: 0px;
+  color: #3E3E3E;
+  opacity: 1;
+ }

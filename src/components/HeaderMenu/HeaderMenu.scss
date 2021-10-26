@@ -1,0 +1,39 @@
+@import "../../styles/abstracts";
+
+.header-menu {
+    text-align: center;
+    font: normal bold 600 18px/24px Nunito;
+    letter-spacing: 0px;
+    color: #525252;
+    opacity: 1;
+    padding: 8px 36px;
+    @include flex-display(flex, center, space-between);
+    & > div {
+      flex: 1;
+    }
+  }
+  .menu-items {
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    cursor: pointer;
+    text-align: center;
+    span {
+      font-weight: 600;
+      padding-bottom: 8px;
+      &:hover {
+        border-bottom: 2px solid  #4B9CE2;
+      }
+    }
+    span:not(:first-child) {
+      margin-left: 30px;
+    }
+    flex: 2 !important;
+  }
+ .header-hr{
+  width: 79%;
+  margin-right:10%;
+  border: 0.5px solid #e9e3e3;
+ }
+  
+ 

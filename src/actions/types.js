@@ -1,0 +1,26 @@
+export const LOGIN_ERROR = "LOGIN_ERROR";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+
+export const REGISTER_ERROR = "REGISTER_ERROR";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+
+export const GET_PRODUCT = "GET_PRODUCT";
+export const GET_PRODUCT_DETAIL = "GET_PRODUCT_DETAIL";
+export const CREATE_PRODUCT = "CREATE_PRODUCT";
+export const PURCHASE_PRODUCT = "PURCHASE_PRODUCT";
+export const OFFER_PRODUCT = "OFFER_PRODUCT";
+
+export const SELECT_CATEGORY = "SELECT_CATEGORY";
+
+export const GET_CATEGORIES = "GET_CATEGORIES";
+export const GET_COLORS = "GET_COLORS";
+export const GET_BRANDS = "GET_BRANDS";
+export const GET_STATUS = "GET_STATUS";
+
+export const UPLOAD_IMAGE = "UPLOAD_IMAGE";
+
+export const GET_GIVE_OFFER = "GET_GIVE_OFFER";
+export const GET_RECEIVED_OFFER = "GET_RECEIVED_OFFER";
+export const ACCEPT_OFFER = "ACCEPT_OFFER";
+export const REJECT_OFFER = "REJECT_OFFER";
+export const CANCEL_OFFER = "CANCEL_OFFER";
